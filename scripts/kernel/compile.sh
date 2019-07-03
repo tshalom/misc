@@ -38,7 +38,7 @@ config()
 
 	# General setup
 	config_enable CONFIG_LOCALVERSION_AUTO
-	config_set_str CONFIG_LOCALVERSION "-custom"
+	config_set_str CONFIG_LOCALVERSION "-custom-shalomt"
 	config_enable CONFIG_BPF_SYSCALL
 	config_enable CONFIG_CGROUPS
 	config_enable CONFIG_CGROUP_BPF
