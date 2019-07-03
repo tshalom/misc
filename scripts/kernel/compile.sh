@@ -212,7 +212,7 @@ config()
 	config_disable CONFIG_DRM
 	config_disable CONFIG_BACKLIGHT_LCD_SUPPORT
 	config_disable CONFIG_LOGO
-	config_disable CONFIG_PTP_1588_CLOCK
+	config_enable CONFIG_PTP_1588_CLOCK
 	config_disable CONFIG_BLK_DEV_MD
 	config_disable CONFIG_PPS
 	config_disable CONFIG_INPUT_MOUSE
