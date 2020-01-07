@@ -280,6 +280,9 @@ config()
 	config_module CONFIG_VIRTIO_NET
 	config_module CONFIG_VIRTIO_CONSOLE
 	config_module CONFIG_SCSI_VIRTIO
+
+	# Debug info
+	config_enable CONFIG_DEBUG_INFO
 }
 
 debug_enable()
